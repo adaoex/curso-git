@@ -77,6 +77,10 @@ $ git checkout master
 $ git merge iss53
 ```
 
+Remover um branch
+```sh
+git branch -D nome-do-branch
+```
 
 - Hooks (https://git-scm.com/book/pt-br/v1/Customizando-o-Git-Hooks-do-Git)
 ```
@@ -109,10 +113,16 @@ git push local master
 Merge e Rebase
 -------------------------
 
--- listar os branchs 
+Listar os branchs 
+```
 git branch
+```
 
+```
 git merge <branch>
+```
 
--- organiza os branchs, fazendo um merge com o master
+Organiza os branchs, fazendo um merge com o master
+```
 git rebase <branch>
+```
