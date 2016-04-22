@@ -103,6 +103,19 @@ Permissão de execução no arquivo
 chmod +x  ~/.git/hooks/post-receive
 ```
 
+Adicionando Repositorio LOCAL
+-------------------------
+Criar um repositório --bare
+```console
+git init --bare
+```
+
+Nomear Repositório (como 'local')
+```console
+git remote add local ssh://localhost/caminho/do/repositorio/criado/--bare
+```
+
+
 Push e Pull
 -------------------------
 Enviando para servidor Remoto
