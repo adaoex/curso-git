@@ -125,7 +125,7 @@ Merge e Rebase
 
 Listar os branchs 
 ```console
-git branch
+git branch -a
 ```
 
 ```console
@@ -143,3 +143,32 @@ Pull Requests (PR) Colaborando com outros projetos
 1. Fazer um fork do projeto (github.com)
 
 2. Pull Requests
+
+
+TAGs ou Releases
+-------------------------
+
+Criando um tag 0.1.0 (relaese)
+```console
+git tag 0.1.0
+```
+
+Subindo a tag, para o servidor
+```console
+git push origin master --tags
+```
+
+Para remover TAGs
+```console
+git tag -d 0.1.0  #(removendo tag localmente)
+git push origin :refs/tags/0.1.0  #(removendo tag no repositório remoto)
+```
+
+-- Versionamento semântico (semver.org)
+X.Y.Z (MAJOR.MINOR.PATCH)
+
+Onde: 
+X: versão 'master' do projeto
+Y: versão de funcionalidades
+Z: versão considerando correções/melhorias de funcionalidade
+
