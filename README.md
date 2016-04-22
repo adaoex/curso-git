@@ -82,6 +82,11 @@ Remover um branch
 git branch -D nome-do-branch
 ```
 
+Remover um branch
+```console
+git push origin :nome-do-branch
+```
+
 - Hooks (https://git-scm.com/book/pt-br/v1/Customizando-o-Git-Hooks-do-Git)
 ```console
 .git/hooks/post-receive
@@ -132,9 +137,9 @@ Organiza os branchs, fazendo um merge com o master
 git rebase <branch>
 ```
 
-Pull Requests (PR)
+Pull Requests (PR) Colaborando com outros projetos
 -------------------------
 
 1. Fazer um fork do projeto (github.com)
 
-2. 
+2. Pull Requests
