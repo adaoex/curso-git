@@ -61,6 +61,23 @@ git reset HEAD~2 <--hard>
 Branches (ramificações)
 -------------------------
 
+Para criar um branch e mudar para ele ao mesmo tempo
+```sh
+git checkout -b iss53
+```
+OU
+```sh
+$ git branch iss53
+$ git checkout iss53
+```
+
+Merge básico
+```sh
+$ git checkout master
+$ git merge iss53
+```
+
+
 - Hooks (https://git-scm.com/book/pt-br/v1/Customizando-o-Git-Hooks-do-Git)
 ```
 .git/hooks/post-receive
