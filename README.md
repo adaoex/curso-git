@@ -82,7 +82,7 @@ Remover um branch
 git branch -D nome-do-branch
 ```
 
-Remover um branch
+Commit branch
 ```console
 git push origin :nome-do-branch
 ```
